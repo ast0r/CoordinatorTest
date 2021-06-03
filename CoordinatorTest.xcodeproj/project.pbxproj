@@ -14,6 +14,11 @@
 		1286AFD62668F151001E1021 /* CoordinatorTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1286AFD42668F151001E1021 /* CoordinatorTest.xcdatamodeld */; };
 		1286AFD82668F153001E1021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1286AFD72668F153001E1021 /* Assets.xcassets */; };
 		1286AFDB2668F153001E1021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1286AFD92668F153001E1021 /* LaunchScreen.storyboard */; };
+		1286AFE32668F33E001E1021 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286AFE22668F33E001E1021 /* Coordinator.swift */; };
+		1286AFE52668F466001E1021 /* Storyboard+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286AFE42668F466001E1021 /* Storyboard+extension.swift */; };
+		1286AFE72668FDAF001E1021 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286AFE62668FDAF001E1021 /* MainCoordinator.swift */; };
+		1286AFE926690047001E1021 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286AFE826690047001E1021 /* BuyViewController.swift */; };
+		1286AFEB26690055001E1021 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286AFEA26690055001E1021 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		1286AFD72668F153001E1021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1286AFDA2668F153001E1021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1286AFDC2668F153001E1021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1286AFE22668F33E001E1021 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1286AFE42668F466001E1021 /* Storyboard+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+extension.swift"; sourceTree = "<group>"; };
+		1286AFE62668FDAF001E1021 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1286AFE826690047001E1021 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		1286AFEA26690055001E1021 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 		1286AFCA2668F151001E1021 /* CoordinatorTest */ = {
 			isa = PBXGroup;
 			children = (
+				1286AFE22668F33E001E1021 /* Coordinator.swift */,
+				1286AFE42668F466001E1021 /* Storyboard+extension.swift */,
+				1286AFE62668FDAF001E1021 /* MainCoordinator.swift */,
 				1286AFCB2668F151001E1021 /* AppDelegate.swift */,
+				1286AFE826690047001E1021 /* BuyViewController.swift */,
+				1286AFEA26690055001E1021 /* CreateAccountViewController.swift */,
 				1286AFCD2668F151001E1021 /* SceneDelegate.swift */,
 				1286AFCF2668F151001E1021 /* ViewController.swift */,
 				1286AFD12668F151001E1021 /* Main.storyboard */,
@@ -141,7 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1286AFD62668F151001E1021 /* CoordinatorTest.xcdatamodeld in Sources */,
+				1286AFE926690047001E1021 /* BuyViewController.swift in Sources */,
+				1286AFE72668FDAF001E1021 /* MainCoordinator.swift in Sources */,
 				1286AFD02668F151001E1021 /* ViewController.swift in Sources */,
+				1286AFE52668F466001E1021 /* Storyboard+extension.swift in Sources */,
+				1286AFE32668F33E001E1021 /* Coordinator.swift in Sources */,
+				1286AFEB26690055001E1021 /* CreateAccountViewController.swift in Sources */,
 				1286AFCC2668F151001E1021 /* AppDelegate.swift in Sources */,
 				1286AFCE2668F151001E1021 /* SceneDelegate.swift in Sources */,
 			);
