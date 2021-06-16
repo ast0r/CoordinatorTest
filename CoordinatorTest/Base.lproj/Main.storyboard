@@ -48,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="94"/>
+            <point key="canvasLocation" x="-83" y="-212"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="uia-9g-dvr">
@@ -78,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s7D-BU-ajB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967" y="477"/>
+            <point key="canvasLocation" x="688" y="-212"/>
         </scene>
         <!--Buy View Controller-->
         <scene sceneID="Iwd-Dl-CPQ">
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5J9-5H-8Vh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968" y="-211"/>
+            <point key="canvasLocation" x="1386" y="-212"/>
         </scene>
     </scenes>
     <resources>

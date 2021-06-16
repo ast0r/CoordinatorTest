@@ -33,6 +33,4 @@ class MainCoordinat: Coordinator {
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }
-    
-    
 }
